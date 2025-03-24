@@ -2,7 +2,7 @@ import re
 import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
-#
+
 def check_1_SnapshotDateMV(df, column_name):
     """Check for missing values and return results in table format."""
     failed_count = df[column_name].isna().sum()
