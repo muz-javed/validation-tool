@@ -19,3 +19,4 @@ streamlit_extras
 seaborn 
 scipy
 PyPDF2>=3.0.0
+statsmodels>=0.14.0
