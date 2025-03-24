@@ -17,7 +17,4 @@ langchain-google-community
 faiss-cpu
 streamlit_extras
 seaborn 
-scipy
-statsmodels
-matplotlib
-sklearn
+
