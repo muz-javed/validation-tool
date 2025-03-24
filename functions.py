@@ -3383,7 +3383,7 @@ def traffic_light_test(y_true, y_pred, thresholds=[1/3, 0.5, 2/3]):
 
 def gen_rep_page():
 
-    cols = st.columns([1.5, 0.5, 1.7, 1])
+    cols = st.columns([2, 1, 1.7, 1])
     with cols[0]:
         st.write('Are you sure you want to generate the report?')
     ChangeButtonColour('Yes', 'black', '#B2BBD2', '10px', margin_top = '-5px', margin_bottom = '-10px', border = None)
