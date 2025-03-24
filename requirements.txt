@@ -22,3 +22,4 @@ PyPDF2>=3.0.0
 statsmodels
 scikit-learn
 arch
+streamlit-option-menu
