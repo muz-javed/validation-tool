@@ -20,8 +20,6 @@ def check_1_SnapshotDateMV(df, column_name):
     return result_df
 
 
-
-
 def check_2_SnapshotDate_format(df, column_name):
     """Validate date format (YYYY-MM-DD) and return results in table format."""
     failed_count = sum(pd.to_datetime(df[column_name], errors='coerce').isna())
