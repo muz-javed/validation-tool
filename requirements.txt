@@ -1,0 +1,17 @@
+pandas
+openpyxl
+streamlit
+openai
+numpy
+langchain
+pydantic
+langchain-openai
+textblob
+langchain-community
+docx
+google-api-python-client
+requests
+google-cloud-bigquery
+xlsxwriter
+langchain-google-community
+faiss-cpu
